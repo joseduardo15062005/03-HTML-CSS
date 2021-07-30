@@ -1,6 +1,22 @@
+body {
+    background-color: #EFEEE7;
+    margin: 0px;
+
+
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
 .container {
     display: grid;
     grid-template-columns: 75% 25%;
+    padding: 0 10px 0 10px;
 }
 
 .main-bio {
@@ -11,4 +27,26 @@
 .contact-info {
     grid-column-start: 3;
     grid-column-end: 4;
+}
+
+img,
+p {
+    display: inline-block;
+
+}
+
+img {
+    float: left;
+    height: 200px;
+}
+
+p {
+    margin-top: 0px;
+    margin-left: 20px;
+    float: left;
+    width: 80%;
+}
+
+a {
+    color: #D21134;
 }
